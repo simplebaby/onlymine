@@ -1,0 +1,33 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #00ff80;
+    
+    color: #333;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+/* Estilo para las imágenes de la galería */
+.custom-img {
+    width: 300px; /* Ancho fijo */
+    height: 200px; /* Alto fijo */
+    object-fit: cover; /* Ajusta la imagen para llenar el espacio sin distorsión */
+    border-radius: 5px; /* Opcional: esquinas redondeadas */
+    display: block; /* Asegura que no haya problemas con el flujo de diseño */
+    margin: 0 auto; /* Centra las imágenes dentro de su columna */
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: #44ee22;
+    text-align: center;
+    padding: 10px 0;
+}
